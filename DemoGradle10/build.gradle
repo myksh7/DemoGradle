@@ -12,7 +12,12 @@ repositories {
 	mavenCentral()
 }
 
-apply plugin: "war"
+//apply plugin: "war"
+
+bootWar{
+	archiveBaseName="DemoGradle10"
+	archiveVersion="0.0.1-SNAPSHOT"
+}
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
