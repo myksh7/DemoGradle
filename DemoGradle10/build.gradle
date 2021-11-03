@@ -12,7 +12,7 @@ repositories {
 	mavenCentral()
 }
 
-//apply plugin: "war"
+apply plugin: "war"
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
